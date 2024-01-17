@@ -5,11 +5,11 @@ import java.util.Arrays;
 
 public class Task_3_0 {
     public static void main(String[] args) {
-        int[] array = new int[]{5,1,2,3,4,5,7,5,32,2};
+        int[] array = new int[]{1,2,3,4,5,6,7,8,9,10};
         int[] sortArray = sortArray(array);
         System.out.println(Arrays.toString(sortArray));
         System.out.println(searchElement(array, 1));
-        System.out.println(binarySearch(sortArray, 1, 0, sortArray.length));
+        System.out.println(binarySearch(sortArray, 21, 0, sortArray.length));
     }
     public static int searchElement(int[] array, int key){
         for (int i = 0; i < array.length; i++) {
