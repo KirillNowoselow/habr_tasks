@@ -30,8 +30,7 @@ public class Vector {
         return new Vector (
                 y*vector.z-z*vector.y,
                 z*vector.x-x*vector.z,
-                x*vector.y-y*vector.x
-                );
+                x*vector.y-y*vector.x);
     }
 
     public double vectorCos(Vector vector){
