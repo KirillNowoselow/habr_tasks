@@ -1,4 +1,4 @@
-package classes.classHierarchy;
+package classes.shapesHierarchy;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

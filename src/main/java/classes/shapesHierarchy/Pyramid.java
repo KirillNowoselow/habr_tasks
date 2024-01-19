@@ -1,4 +1,4 @@
-package classes.classHierarchy;
+package classes.shapesHierarchy;
 
 public class Pyramid extends Shape{
     private double height;

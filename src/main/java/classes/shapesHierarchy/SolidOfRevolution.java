@@ -1,8 +1,5 @@
-package classes.classHierarchy;
+package classes.shapesHierarchy;
 
-import lombok.Data;
-
-@Data
 public class SolidOfRevolution extends Shape {
     private double radius;
 
