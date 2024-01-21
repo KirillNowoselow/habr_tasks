@@ -9,7 +9,6 @@ public class Task_7_0 {
         frequencyDictionary("puriruri puriruri puriruri pariram YF yf aa");
     }
     public static void frequencyDictionary(String text){
-       // Map<String, Integer> frequencyMap = new HashMap<>();
         TreeMap<String, Integer> frequencyMap = new TreeMap<>();
         for (String word : text.toLowerCase().split(" ")) {
             frequencyMap.put(word, frequencyMap.getOrDefault(word, 0) + 1);

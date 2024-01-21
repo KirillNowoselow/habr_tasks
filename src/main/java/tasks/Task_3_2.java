@@ -13,6 +13,6 @@ public class Task_3_2 {
         tree.insert(4);
 
         System.out.println(tree.search(3));
-        System.out.println(tree.search(7));
+        System.out.println(tree.search(2));
     }
 }

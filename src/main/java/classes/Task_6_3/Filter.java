@@ -1,5 +1,5 @@
 package classes.Task_6_3;
 
-interface FilterInterface {
+public interface Filter {
     boolean apply(Object o);
 }
