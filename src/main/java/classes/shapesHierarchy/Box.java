@@ -1,4 +1,4 @@
-package classes.classHierarchy;
+package classes.shapesHierarchy;
 
 import java.util.ArrayList;
 

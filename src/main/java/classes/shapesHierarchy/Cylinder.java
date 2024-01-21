@@ -1,4 +1,4 @@
-package classes.classHierarchy;
+package classes.shapesHierarchy;
 
 public class Cylinder extends SolidOfRevolution{
     private double height;
